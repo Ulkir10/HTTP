@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4A3CDB;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #362fb5;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dark-mode input,
+.dark-mode button {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark-mode .contact {
+  border-color: #444;
+}
+
+.dark-mode .icons i {
+  color: white;
+}
